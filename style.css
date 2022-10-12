@@ -1,0 +1,50 @@
+:root {
+  --bg-color: rgb(22, 26, 30);
+  --bg-color-highlight: rgb(58, 42, 81);
+  --txt-color: #fff;
+  --link-color: #fffb4a;
+
+  --bs-body-bg: var(--bg-color);
+  --bs-body-color: var(--txt-color);
+}
+
+html {
+  background-color: var(--bg-color);
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+  color: var(--txt-color);
+}
+
+a {
+  color: var(--link-color);
+}
+
+.title {
+  margin-left: 45rem;
+  font-size: 36px;
+  justify-content: center;
+}
+
+.content {
+  margin-left: 20rem;
+  padding-left: 2rem;
+}
+
+.sidebar {
+  height: 100vh;
+  width: 20rem;
+  float: left;
+}
+
+.highlight {
+    background-color: var(--bg-color-highlight);
+    width: max-content;
+    border-radius: 4px;
+}
+
+.nav-link:hover {
+    background-color: var(--bg-color-highlight);
+}
